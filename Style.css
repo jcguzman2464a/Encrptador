@@ -1,0 +1,24 @@
+body {
+  background: #F3F5FC;
+  width: 1440px;
+
+}
+
+.encriptar {
+  background-color: darkblue;
+  height: 800px;
+  width: 680px;
+  left: 240px;
+  top: 885px;
+  border-radius: 0px;
+
+}
+
+.input-texto {
+  height: 67px;
+  width: 280px;
+  left: 240px;
+  top: 885px;
+  border-radius: 0px;
+
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css">
+  <title>Encriptador de texto</title>
+</head>
+
+<body>
+  <header>
+    <img src="Images/Logo1x.png" alt="logo-Alura">
+  </header>
+  <div class="conatiner">
+    <div class="encripta-texto">
+      <input type="text" id="input-texto" class="input-texto"
+        placeholder="Ingresa el texto que desees encriptar o desencriptar.">
+    </div>
+    <div>
+      <img class="Terminos" src="Images/Frame 1-2x.png" alt="Terminos">
+      <div class="botones">
+        <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
+        <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+      </div>
+    </div>
+
+    <div class="desencripta">
+      <img src="Images/Muñeco1-5x.png" alt="muneco" id="muneco">
+      <div class="mensaje-encriptado">
+        <h2>Ningún mensaje fue encontrado</h2>
+        <p id="parrafo">Ingresa el texto de deseas encriptar o desencriptar</p>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+      </div>
+      <input type="text" placeholder="">
+    </div>
+  </div>
+</body>
+
+</html>
