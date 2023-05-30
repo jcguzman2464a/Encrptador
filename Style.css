@@ -1,18 +1,26 @@
 body {
   background: #F3F5FC;
-  width: 1440px;
+  padding: 10px 10px;
+  
+}
+
+
+.conatiner {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 
 }
 
-.encriptar {
-  background-color: darkblue;
-  height: 800px;
-  width: 680px;
-  left: 240px;
-  top: 885px;
-  border-radius: 0px;
-
-}
+  .encripta-texto {
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    left: 10%;
+    top: 10%;
+    background: #F3F5FC;
+    border: none;
+  }
 
 .input-texto {
   height: 67px;
