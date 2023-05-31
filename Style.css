@@ -1,32 +1,101 @@
 body {
   background: #F3F5FC;
   padding: 10px 10px;
-  
+
 }
 
 
 .conatiner {
+  display: inline-block;
   position: relative;
   width: 100vw;
   height: 100vh;
 
 }
 
-  .encripta-texto {
-    position: absolute;
-    width: 45%;
-    height: 60%;
-    left: 10%;
-    top: 10%;
-    background: #F3F5FC;
-    border: none;
-  }
+.encripta-texto {
+  display: block;
+  position: absolute;
+  width: 46%;
+  height: 45%;
+  left: 05%;
+  top: 10%;
+  background: #F3F5FC;
+  border: none;
+  
+}
 
-.input-texto {
-  height: 67px;
-  width: 280px;
-  left: 240px;
-  top: 885px;
-  border-radius: 0px;
+.text {
+  width: 90%;
+  border: none;
+  background: #F3F5FC;
+  font-family: sans-serif;
+  font-size: 32px;
+  font-weight: 400;
 
+}
+
+
+.text::placeholder {
+  color: #0a3871;
+  
+}
+
+.text:focus, text:active {
+  border: none;
+  outline: none;
+}
+
+.Instruccion {
+  display:block;
+  position: relative;
+  margin: 10px 05px;
+  opacity: 0.8;
+}
+
+.botones {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 18%;
+  margin: 10px 0px 0px 0px;
+
+}
+
+.btn-encriptar {
+  position: relative;
+  width: 47%;
+  height: 100%;
+  gap: 08px;
+  background: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #F3F5FC;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.btn-desencriptar {
+  position: relative;
+  width: 47%;
+  height: 100%;
+  gap: 08px;
+  background: #0A3871;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #F3F5FC;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.btn-encriptar:hover, .btn-desencriptar:hover {
+  transform: scale(1.03);
+  background: #F3F5FC;
+  color: #0A3871;
+  font-style: italic;
+  transition: 0.5s all;
 }

@@ -16,26 +16,27 @@
   </header>
   <div class="conatiner">
     <div class="encripta-texto">
-      <textarea name="text" id="text" cols="30" rows="10">Ingresa el texto aquí</textarea>
-    </div>
+      <textarea class="text" name="text" id="text" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+    
     <div>
-      <img class="Terminos" src="Images/Frame 1-2x.png" alt="Terminos">
-      <div class="botones">
-        <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
-        <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
-      </div>
+      <img class="Instruccion" src="Images/Frame 1-2x.png" alt="instrucciones">
     </div>
-
-    <div class="desencripta">
-      <img src="Images/Muñeco1-5x.png" alt="muneco" id="muneco">
-      <div class="mensaje-encriptado">
-        <h2>Ningún mensaje fue encontrado</h2>
-        <p id="parrafo">Ingresa el texto de deseas encriptar o desencriptar</p>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
-      </div>
-      <input type="text" placeholder="">
+    <div class="botones">
+      <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
+      <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
     </div>
   </div>
+  
+  <div class="desencripta">
+    <img src="Images/Muñeco1-5x.png" alt="muneco" id="muneco">
+    <div class="mensaje-encriptado">
+      <h2>Ningún mensaje fue encontrado</h2>
+      <p id="parrafo">Ingresa el texto de deseas encriptar o desencriptar</p>
+      <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+    </div>
+    <input type="text" placeholder="">
+  </div>
+</div>
 </body>
 <script src="index.js"></script>
 
