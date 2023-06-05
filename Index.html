@@ -17,27 +17,35 @@
   <div class="conatiner">
     <div class="encripta-texto">
       <textarea class="text" name="text" id="text" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
-    
-    <div>
-      <img class="Instruccion" src="Images/Frame 1-2x.png" alt="instrucciones">
+
+      <div>
+        <p class="Instruccion">Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="botones">
+        <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
+        <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+      </div>
     </div>
-    <div class="botones">
-      <input class="btn-encriptar" type="button" value="Encriptar" onclick="encriptar()">
-      <input class="btn-desencriptar" type="button" value="Desencriptar" onclick="desencriptar()">
+
+    <div class="desencripta">
+      <div class="muneco">
+        <img src="Images/Muñeco1x.png" alt="muneco" id="muneco">
+      </div>
+      <div class="mensaje-encriptado">
+        <h2 class= "mensajeTexto" id="mensajeTexto"  >Ningún mensaje fue encontrado</h2>
+        <p id="parrafo">Ingresa el texto de deseas encriptar o desencriptar</p>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+      </div>
+      <input type="button" placeholder="Copiar Texto" class="btn-copiar" id="btn-copiar">
     </div>
   </div>
-  
-  <div class="desencripta">
-    <img src="Images/Muñeco1-5x.png" alt="muneco" id="muneco">
-    <div class="mensaje-encriptado">
-      <h2>Ningún mensaje fue encontrado</h2>
-      <p id="parrafo">Ingresa el texto de deseas encriptar o desencriptar</p>
-      <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
-    </div>
-    <input type="text" placeholder="">
-  </div>
-</div>
+<footer>
+  <a href="https://github.com/jcguzman2464a/Encrptador.git">Github</a>
+  <a href="https://www.linkedin.com/in/jcarlosguzman2464a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjaoevwsiTdOwU%2FgkEkerjQ%3D%3D">Linkedin</a>
+</footer>
+
 </body>
-<script src="index.js"></script>
+
+<script src="index.js" type="text/javascript"></script>
 
 </html>
