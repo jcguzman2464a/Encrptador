@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Encriptador de texto</title>
 </head>
 
@@ -32,17 +35,25 @@
         <img src="Images/Muñeco1x.png" alt="muneco" id="muneco">
       </div>
       <div class="mensaje-encriptado">
-        <h2 class= "mensajeTexto" id="mensajeTexto"  >Ningún mensaje fue encontrado</h2>
+        <h2 class="mensajeTexto" id="mensajeTexto">Ningún mensaje fue encontrado</h2>
         <p id="parrafo">Ingresa el texto de deseas encriptar o desencriptar</p>
         <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
       </div>
-      <input type="button" placeholder="Copiar Texto" class="btn-copiar" id="btn-copiar">
+      <input type="button" value="Copiar Texto" class="btnCopiar" id="btnCopiar" onclick="copiar()">
     </div>
   </div>
-<footer>
-  <a href="https://github.com/jcguzman2464a/Encrptador.git">Github</a>
-  <a href="https://www.linkedin.com/in/jcarlosguzman2464a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjaoevwsiTdOwU%2FgkEkerjQ%3D%3D">Linkedin</a>
-</footer>
+  <footer>
+    <ul>
+      <li>
+        <a class="github" href="https://github.com/jcguzman2464a/Encrptador.git"><img src="Images/Github_logo_PNG7.png" width="45px" height="40px" alt=""
+            srcset=""></a>
+      </li>
+      <li>
+        <a class="linked" href="https://www.linkedin.com/in/jcarlosguzman2464a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BjaoevwsiTdOwU%2FgkEkerjQ%3D%3D"><img
+            src="Images/LI-In-Bug.png"  width="45px" height="40px" alt="" srcset=""></a>
+      </li>
+    </ul>
+  </footer>
 
 </body>
 
